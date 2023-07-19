@@ -69,6 +69,8 @@
 }
 
 body {
+    margin-top: 50px;
+    margin-bottom: 50px;
     background: #081b29;
     color: #fff;
 }
