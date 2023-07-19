@@ -74,7 +74,8 @@ body {
 }
 
 .home {
-    height: 80vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     padding: 0 10%;
