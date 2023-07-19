@@ -221,3 +221,8 @@ body {
 .judul1 {
     margin: 20px;
 }
+
+.art {
+    max-width: 200px;
+    outline: none;
+}
