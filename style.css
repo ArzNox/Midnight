@@ -160,7 +160,8 @@ body {
 }
 
 .o {
-    position: relative;
+    position: absolute;
+    left: 500px;
     margin-left: 100px;
     max-width: 200px;
     height: auto;
