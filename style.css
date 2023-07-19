@@ -221,12 +221,3 @@ body {
 .judul1 {
     margin: 20px;
 }
-
-.art {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 200px;
-    height: auto;
-    outline: none;
-}
