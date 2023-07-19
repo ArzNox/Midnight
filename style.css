@@ -166,7 +166,8 @@ body {
 
 .o {
     position: absolute;
-    left: 800px;
+    top: 20px;
+    left: 700px;
     max-width: 200px;
     height: auto;
     border-radius: 10px;
