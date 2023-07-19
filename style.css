@@ -82,7 +82,7 @@ body {
 }
 
 .home1 {
-    max-width: 650px;
+    max-width: 750px;
 }
 .home1 h1 {
     font-size: 35px;
@@ -161,7 +161,7 @@ body {
 
 .o {
     position: relative;
-    margin-left: 200px;
+    margin-left: 100px;
     max-width: 200px;
     height: auto;
     margin-bottom: 20px;
