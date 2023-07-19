@@ -166,11 +166,9 @@ body {
 
 .o {
     position: absolute;
-    left: 500px;
-    margin-left: 100px;
+    left: 600px;
     max-width: 200px;
-    height: auto;
-    margin-bottom: 20px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
 }
