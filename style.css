@@ -86,16 +86,16 @@ body {
 }
 .home1 h1 {
     font-size: 35px;
-    font-weight: 700;
-    margin: 0 0 20px;
+    font-weight: 700;
 }
 
 .home1 p {
-    margin: 0 0 20px;
+    margin-top: 20px;
     max-width: 500px;
 }
 
 .home1 s {
+    margin-top: 20px;
     max-width: 500px;
 }
 
@@ -166,7 +166,7 @@ body {
 
 .o {
     position: absolute;
-    left: 600px;
+    left: 700px;
     max-width: 200px;
     height: auto;
     border-radius: 10px;
