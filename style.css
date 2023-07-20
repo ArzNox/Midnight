@@ -228,7 +228,7 @@ audio::-webkit-media-controls-play-button,
      } 
 
 audio::-webkit-media-controls-enclosure {
-  max-width: 200px;
+  max-width: 220px;
   height: auto;
   justify-content: center;
 }
