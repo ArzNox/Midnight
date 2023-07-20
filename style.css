@@ -204,7 +204,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-warp: warp;
+    flex-wrap: wrap;
 }
 
 .musik1 {
