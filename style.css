@@ -222,6 +222,6 @@ body {
     margin: 20px;
 }
 
-.art::-webkit-media-control-panel {
+.art::-webkit-media-controls-panel {
     background-color: #1e90ff;
 }
