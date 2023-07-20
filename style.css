@@ -221,3 +221,7 @@ body {
 .judul1 {
     margin: 20px;
 }
+
+.art::-webkit-media-control-panel {
+    background-color: #1e90ff;
+}
