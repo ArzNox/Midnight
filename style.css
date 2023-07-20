@@ -201,10 +201,9 @@ body {
 }
 
 .play {
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .musik1 {
