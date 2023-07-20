@@ -224,6 +224,8 @@ body {
 
 audio::-webkit-media-controls-play-button,
      audio::-webkit-media-controls-panel {
-     background-color: #808080;
-     color: #808080;
-     }
+     background-color: #36454F;
+     color: #36454F;
+     max-width: 250px;
+     height: auto;
+     } 
