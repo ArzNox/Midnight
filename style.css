@@ -208,10 +208,6 @@ body {
 }
 
 .musik1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-warp: warp;
     width: 300px;
     height: 150px;
     font-size: 25px;
@@ -224,9 +220,4 @@ body {
 
 .judul1 {
     margin: 20px;
-}
-
-.art {
-    max-width: 250px;
-    height: auto;
 }
