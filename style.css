@@ -221,3 +221,9 @@ body {
 .judul1 {
     margin: 20px;
 }
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #808080;
+     color: #808080;
+     }
