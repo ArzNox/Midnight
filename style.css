@@ -321,10 +321,20 @@ audio::-webkit-media-controls-timeline-container {
     align-items: center;
     justify-content: center;
 }
+
+  .home { 
+     max-width: 480px;
+     margin-top: 50px; 
+     margin-bottom: 50px; 
+     display: flex; 
+     align-items: center; 
+     padding: 0 10%;
+
   .home1 {
     max-width: 400px;
     align-items: center;
 }
+
   .home1 h1 {
     font-size: 20px;
     font-weight: 300;
