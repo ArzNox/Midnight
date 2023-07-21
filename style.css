@@ -269,3 +269,34 @@ audio::-webkit-media-controls-timeline {
 audio::-webkit-media-controls-timeline-container {
   height: 4px;
 }
+
+@media screen and (max-width: 480px) {
+  .home1 {
+    max-width: 400px;
+    justify-content: center;
+}
+  .home1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+  .home1 p {
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+  .home1 s {
+    margin-top: 10px;
+    max-width: 300px;
+}
+
+.o {
+    position: absolute;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #1e90ff;
+}
+
+
+}
