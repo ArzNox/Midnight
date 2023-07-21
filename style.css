@@ -442,9 +442,10 @@ body {
     color: #fff;
 }
 
-.o {
-    max-width: 70px;
-    height: auto;
+.o {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
 }
