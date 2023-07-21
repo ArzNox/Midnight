@@ -271,7 +271,14 @@ audio::-webkit-media-controls-timeline-container {
 }
 
 @media screen and (max-width: 480px) {
-  
+  * { 
+     margin: 0px; 
+     padding: 0px;
+     max-width: 480px;
+     box-sizing: border-box; 
+     font-family: 'Poppins', sans-serif; 
+ }
+
   .overlay {
     position: fixed;
     top: 0;
