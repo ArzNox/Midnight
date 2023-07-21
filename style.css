@@ -276,23 +276,22 @@ audio::-webkit-media-controls-timeline-container {
     justify-content: center;
 }
   .home1 h1 {
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 300;
 }
 
   .home1 p {
-    margin-top: 10px;
-    max-width: 300px;
+    margin-top: 5px;
+    max-width: 100px;
 }
 
   .home1 s {
-    margin-top: 10px;
-    max-width: 300px;
+    margin-top: 5px;
+    max-width: 100px;
 }
 
-.o {
-    position: absolute;
-    max-width: 200px;
+.o {
+    max-width: 100px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
