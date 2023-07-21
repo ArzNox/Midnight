@@ -282,12 +282,14 @@ audio::-webkit-media-controls-timeline-container {
 
   .home1 p {
     margin-top: 5px;
-    max-width: 100px;
+    max-width: 200px;
+    font-size: 5px;
 }
 
   .home1 s {
     margin-top: 5px;
-    max-width: 100px;
+    max-width: 200px;
+    font-size: 5px;
 }
 
 .o {
