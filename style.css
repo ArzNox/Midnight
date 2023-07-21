@@ -344,6 +344,7 @@ audio::-webkit-media-controls-timeline-container {
 body {
     background: #081b29;
     color: #fff;
+    align-items: center;
 }
 
 .home {
@@ -368,13 +369,13 @@ body {
 .home1 p {
     margin-top: 7px;
     text-align: center;
-    font-size : 15px;
+    font-size : 7px;
 }
 
 .home1 s {
     margin-top: 7px;
     text-align: center;
-    font-size: 15px;
+    font-size: 7px;
 }
 
 .ig {
