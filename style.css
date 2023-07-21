@@ -308,10 +308,11 @@ audio::-webkit-media-controls-timeline-container {
 }
 
   body { 
-     background: #081b29; 
-     color: #fff;
-     align-items: center;
-     justify-content: center;
+    max-width: 480px
+    background: #081b29; 
+    color: #fff;
+    align-items: center;
+    justify-content: center;
 }
   .home1 {
     max-width: 400px;
