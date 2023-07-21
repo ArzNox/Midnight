@@ -280,7 +280,7 @@ audio::-webkit-media-controls-timeline-container {
 }
   .home1 {
     max-width: 400px;
-    justify-content: center;
+    align-items: center;
 }
   .home1 h1 {
     font-size: 20px;
@@ -303,7 +303,6 @@ audio::-webkit-media-controls-timeline-container {
   .o {
     max-width: 50px;
     height: auto;
-    justify-content: center;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
@@ -323,16 +322,15 @@ audio::-webkit-media-controls-timeline-container {
 
   .waifu {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
   .waifu img {
-    max-width: 70px;
+    max-width: 200px;
     height: auto;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
 }
 
