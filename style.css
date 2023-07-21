@@ -271,14 +271,6 @@ audio::-webkit-media-controls-timeline-container {
 }
 
 @media screen and (max-width: 480px) {
-  * { 
-     margin: 0px; 
-     padding: 0px;
-     max-width: 480px;
-     box-sizing: border-box; 
-     font-family: 'Poppins', sans-serif; 
- }
-
   .overlay {
     position: fixed;
     top: 0;
@@ -314,16 +306,14 @@ audio::-webkit-media-controls-timeline-container {
     margin-bottom: 20px;
 }
 
-  body { 
-    max-width: 480px;
+  body {
     background: #081b29; 
     color: #fff;
     align-items: center;
     justify-content: center;
 }
 
-  .home { 
-     max-width: 480px;
+  .home {
      margin-top: 50px; 
      margin-bottom: 50px; 
      display: flex; 
@@ -341,7 +331,8 @@ audio::-webkit-media-controls-timeline-container {
     text-align: center;
 }
 
-  .o { 
+  .o {
+     position: fixed;
      max-width: 70px; 
      height: auto;
      margin: 10 0; 
