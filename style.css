@@ -225,7 +225,8 @@ body {
 .audio-player {
   display: inline-block;
   border: 2px solid #eee;
-  background-color: #000;
+  background-color: #000000;
+  color: #fff;
   border-radius: 8px;
   padding: 16px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -234,7 +235,6 @@ body {
 audio::-webkit-media-controls-enclosure {
   max-width: 250px;
   height: auto;
-  background-color: #000;
   justify-content: center;
 }
 
