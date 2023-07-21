@@ -443,9 +443,10 @@ body {
 }
 
 .o {
-    margin: auto;
-    width: 60%;
-    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
     border-radius: 10px;
     box-shadow: 0 0 10px 10px #1e90ff;
 }
