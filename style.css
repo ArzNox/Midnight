@@ -77,41 +77,20 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 13%;
+    padding: 0 10%;
 }
 
 .home1 {
     max-width: 600px;
 }
-
 .home1 h1 {
     font-size: 35px;
     font-weight: 700;
     margin: 0 0 20px;
 }
 
-.para1 {
-    max-width: 600px;
-}
-
-.para1 p {
+.home1 p {
     margin: 0 0 20px;
-}
-.para2 {
-    max-width: 600px;
-}
-
-.para2 p {
-    margin: 0 0 20px;
-}
-
-.o {
-    position: absolute;
-    margin-left: 850px;
-    max-width: 130px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 10px #1e90ff;
 }
 
 .ig {
@@ -179,6 +158,16 @@ body {
     color: #fff;
 }
 
+.o {
+    position: relative;
+    margin-left: 250px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px #1e90ff;
+}
+
 .r {
     font-size: 35px;
     font-weight: 100;
@@ -204,15 +193,6 @@ body {
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px 10px #1e90ff;
-}
-
-.mu {
-    width: fit-content;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .play {
@@ -285,12 +265,13 @@ body {
     height: 4px;
   }
 
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .overlay {
         position: fixed;
         top: 0;
         left: 0;
-        max-width: 480px;
+        width: 100%;
+        height: 100%;
         background-color: rgba(0, 0, 0, 0.8);
         display: flex;
         justify-content: center;
@@ -309,7 +290,7 @@ body {
     .alert img {
         max-width: 70px;
         height: auto;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         border-radius: 10px;
     }
     
@@ -317,7 +298,7 @@ body {
         font-size: 15px;
         font-family: cursive;
         color: #ffffff;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     
     .close-button {
@@ -358,67 +339,37 @@ body {
     body {
         background: #081b29;
         color: #fff;
+        align-items: center;
     }
-
+    
     .home {
-        max-width: 480px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-
-    .hm {
-        margin: 0;
-        max-width: 480px;
     }
     
     .home1 {
-        max-width: 480px;
+        max-width: 400px;
+        align-items: center;
     }
-
+    
     .home1 h1 {
         font-size: 20px;
         font-weight: 100;
         text-align: center;
-        margin: 0 0 20px;
-    }
-
-    .para1 {
-        max-width: 480px;
     }
     
-    .para1 p {
-        margin: 7px;
-        text-align: center;
-        font-size: 10px;
-    }
-
-    .para2 {
-        max-width: 480px;
-    }
-    
-    .para2 p {
-        margin: 7px;
+    .home1 p {
+        margin-top: 7px;
         text-align: center;
         font-size: 10px;
     }
     
-    .o {
-        position: relative;
-        right: 650px;
-        max-width: 70px;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 10px #1e90ff;
-    }
-
-    .insta {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .home1 s {
+        margin-top: 7px;
+        text-align: center;
+        font-size: 10px;
     }
     
     .ig {
@@ -452,7 +403,6 @@ body {
     .git {
         display: inline-block;
         padding: 10px 20px;
-        width: 92.02px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 10px;
         font-weight: bold;
@@ -487,6 +437,12 @@ body {
         color: #fff;
     }
     
+    .o {
+    
+    
+        max-width: 0px;
+    }
+    
     .r {
         font-size: 25px;
         font-weight: 100;
@@ -502,7 +458,7 @@ body {
     .waifu {
         display: flex;
         align-items: center;
-        justify-content: center;
+    
         flex-wrap: wrap;
     }
     
@@ -514,19 +470,9 @@ body {
         box-shadow: 0 0 10px 10px #1e90ff;
     }
     
-    .mu {
-        width: fit-content;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    
     .play {
         display: flex;
         align-items: center;
-        justify-content: center;
         flex-wrap: wrap;
     }
     
@@ -535,7 +481,6 @@ body {
         height: 150px;
         font-size: 25px;
         align-items: center;
-        justify-content: center;
         margin: 20px;
         border-radius: 20px;
         box-shadow: 0 0 10px 10px #1e90ff;
@@ -546,50 +491,51 @@ body {
     }
     
     .audio-player {
-        display: inline-block;
-        border: 2px solid #eee;
-        background-color: #000000;
-        border-radius: 8px;
-        padding: 16px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      audio::-webkit-media-controls-enclosure {
-        max-width: 250px;
-        height: auto;
-        justify-content: center;
-        background-color: #000000;
-      }
-      
-      /* Customize the appearance of the audio controls */
-      audio::-webkit-media-controls-panel {
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      audio::-webkit-media-controls-play-button,
-      audio::-webkit-media-controls-pause-button,
-      audio::-webkit-media-controls-volume-slider {
-        background-color: #ff6363;
-        border-radius: 50px;
-      }
-      
-      audio::-webkit-media-controls-volume-slider-thumb {
-        background-color: #ff3c3c;
-      }
-      
-      audio::-webkit-media-controls-current-time-display,
-      audio::-webkit-media-controls-time-remaining-display {
-        color: #333;
-      }
-      
-      audio::-webkit-media-controls-timeline {
-        background-color: #e1e1e1;
-        border-radius: 10px;
-      }
-      
-      audio::-webkit-media-controls-timeline-container {
-        height: 4px;
-      }
-  }
+      display: inline-block;
+      border: 2px solid #eee;
+      background-color: #000000;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    audio::-webkit-media-controls-enclosure {
+      max-width: 250px;
+      height: auto;
+      justify-content: center;
+      background-color: #000000;
+    }
+    
+    /* Customize the appearance of the audio controls */
+    audio::-webkit-media-controls-panel {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    audio::-webkit-media-controls-play-button,
+    audio::-webkit-media-controls-pause-button,
+    audio::-webkit-media-controls-volume-slider {
+      background-color: #ff6363;
+      border-radius: 50px;
+    }
+    
+    audio::-webkit-media-controls-volume-slider-thumb {
+      background-color: #ff3c3c;
+    }
+    
+    audio::-webkit-media-controls-current-time-display,
+    audio::-webkit-media-controls-time-remaining-display {
+      color: #333;
+    }
+    
+    audio::-webkit-media-controls-timeline {
+      background-color: #e1e1e1;
+      border-radius: 10px;
+    }
+    
+    audio::-webkit-media-controls-timeline-container {
+      height: 4px;
+    }
+    
+}    
